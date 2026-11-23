@@ -1,6 +1,3 @@
-/* KKORI - Estilos organizados con metodología BEM */
-
-/* 1. Variables generales */
 :root {
   --cream: #f7f4ee;
   --paper: #fff;
@@ -14,8 +11,6 @@
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "DM Sans", Arial, sans-serif;
 }
-
-/* 2. Estilos base */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -121,8 +116,6 @@ button {
   color: var(--muted);
   font-size: 12px;
 }
-
-/* 4. Header */
 .header {
   min-height: 82px;
   padding: 13px clamp(24px, 5vw, 76px);
@@ -203,8 +196,6 @@ button {
   background: var(--ink);
   margin: 6px auto;
 }
-
-/* 5. Portada */
 .hero {
   background: var(--cream);
 }
@@ -259,8 +250,6 @@ button {
   color: var(--muted);
   font-size: 7px;
 }
-
-/* 6. Menú y productos */
 .menu {
   background: var(--paper);
   padding: 70px 0 38px;
@@ -386,8 +375,6 @@ button {
   color: var(--muted);
   font: 400 16px var(--serif);
 }
-
-/* 8. Repostería */
 .bakery {
   padding: 66px 0 76px;
   background: var(--cream);
@@ -441,8 +428,6 @@ button {
   line-height: 1.65;
   margin-bottom: 12px;
 }
-
-/* 9. Experiencia */
 .experience {
   padding: 68px 0 74px;
   background: var(--paper);
@@ -474,8 +459,6 @@ button {
   color: var(--muted);
   font-size: 10px;
 }
-
-/* 10. Contacto */
 .contact {
   padding: 58px 0;
   background: var(--lavender);
@@ -515,8 +498,6 @@ button {
   font-size: 9px;
   line-height: 1.5;
 }
-
-/* 11. Pie de página */
 .footer {
   padding: 28px clamp(28px, 7.2vw, 104px) 18px;
   background: var(--cream);
@@ -565,8 +546,6 @@ button {
 .footer__bottom small {
   font-size: 8px;
 }
-
-/* 12. Accesibilidad */
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--purple);
@@ -602,7 +581,7 @@ button:focus-visible {
   }
 }
 
-/* 14. Adaptación para móvil */
+/* Adaptación para móvil */
 @media (max-width: 680px) {
   html {
     scroll-padding-top: 72px;

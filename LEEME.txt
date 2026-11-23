@@ -1,14 +1,1 @@
-KKORI - Proyecto académico
-Abre index.html en tu navegador.
-
-Coloca tus fotografías reales en la carpeta img con estos nombres:
-local.jpg, producto1.jpg, producto2.jpg, ube.jpg, cafe.jpg.
-El logo original está en img/logo.jpg.
-
-Coloca video.mp4 y audio.mp3 junto a index.html si deseas mantener la sección multimedia.
-Los precios Bs. 28, Bs. 22 y Bs. 45 son los del código anterior y NO están verificados.
-Antes de publicar, confirma precios, descripciones, horarios y el enlace oficial de WhatsApp.
-
-BEM: header__link, inicio__titulo, producto__imagen, etc.
-Layout: Flexbox en encabezado/inicio y Grid en menú/repostería.
-Componentes: boton, producto y seccion.
+KKORI - Proyecto académico hito 4
